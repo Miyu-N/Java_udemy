@@ -2,12 +2,16 @@ package info.searchman;
 
 public class HelloWorld {
 	public static void main(String args[]) {
-		String x1 = "10";
-		int y1;
-		y1 = Integer.parseInt(x1);
-		String x2 = "5";
-		int y2;
-		y2 = Integer.parseInt(x2);
-		System.out.println(y1+y2);
+		int umare;
+		umare = 1980;
+		if (umare < 1912) {
+			System.out.println("–¾Ž¡¶‚Ü‚ê‚Å‚·");
+		} else if (umare < 1927) {
+			System.out.println("‘å³¶‚Ü‚ê‚Å‚·");
+		} else if (umare < 1989) {
+			System.out.println("º˜a¶‚Ü‚ê‚Å‚·");
+		} else {
+			System.out.println("•½¬¶‚Ü‚ê‚Å‚·");
+		}
 	}
 }
